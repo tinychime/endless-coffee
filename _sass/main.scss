@@ -1,0 +1,27 @@
+// Import Tachyons from node_modules: https://github.com/tachyons-css/tachyons-sass
+@import './node_modules/tachyons-sass/tachyons.scss';
+
+// Add your own CSS rules here
+.system { font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif; }
+
+// We can extend Tachyons styles in new classes like so
+.card {
+  @extend .system, .f2, .green, .ma4;
+}
+
+// Full Tachyons documentation: http://tachyons.io/docs/
+// Quick reference & class generation tools: https://tachyons-tldr.now.sh
+
+.endless-red { color: #FC463D; }
+.bg-endless-red { background-color: #FC463D; }
+.b--endless-red { border-color: #FC463D; }
+
+.hover-endless-red:hover,
+.hover-endless-red:focus { color: #FC463D; }
+
+.hover-bg-endless-red:hover,
+.hover-bg-endless-red:focus { background-color: #FC463D; }
+
+::scrollbar {
+  display: none;
+}

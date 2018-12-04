@@ -1,0 +1,16 @@
+# Site Meta
+title: "Endless Coffee Co."
+phase: "alpha"
+version: "0.1"
+description: ""
+author:
+
+# URL Stuff
+baseurl: "/endless-coffee" # Set the baseurl to the name of your Github repo when deploying with Github Pages
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+# Exclude
+exclude: [node_modules, gulpfile.js, Gemfile, Gemfile.lock, package.json, yarn.lock, README.md, .gitignore]
