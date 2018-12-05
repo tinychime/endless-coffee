@@ -12,6 +12,10 @@
 // Full Tachyons documentation: http://tachyons.io/docs/
 // Quick reference & class generation tools: https://tachyons-tldr.now.sh
 
+::-webkit-scrollbar {
+ display: none;
+}
+
 .endless-red { color: #FC463D; }
 .bg-endless-red { background-color: #FC463D; }
 .b--endless-red { border-color: #FC463D; }
@@ -21,6 +25,18 @@
 
 .hover-bg-endless-red:hover,
 .hover-bg-endless-red:focus { background-color: #FC463D; }
+
+.darkest-gray { color: #161616; }
+.bg-darkest-gray { background-color: #161616; }
+.b--darkest-gray { border-color: #161616; }
+
+.hover-darkest-gray:hover,
+.hover-darkest-gray:focus { color: #161616; }
+
+.hover-bg-darkest-gray:hover,
+.hover-bg-darkest-gray:focus { background-color: #161616; }
+
+
 
 @-moz-keyframes spin {
     from { -moz-transform: rotate(0deg); }
@@ -41,6 +57,11 @@
 
 .neue-haas-unica {
   font-family: neue-haas-unica, sans-serif;
+}
+
+.balboa {
+  font-family: balboa, sans-serif;
+  font-weight: 900;
 }
 
 .spin {

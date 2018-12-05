@@ -6957,6 +6957,9 @@ code, .code {
 .system, .card {
   font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif; }
 
+::-webkit-scrollbar {
+  display: none; }
+
 .endless-red {
   color: #FC463D; }
 
@@ -6973,6 +6976,23 @@ code, .code {
 .hover-bg-endless-red:hover,
 .hover-bg-endless-red:focus {
   background-color: #FC463D; }
+
+.darkest-gray {
+  color: #161616; }
+
+.bg-darkest-gray {
+  background-color: #161616; }
+
+.b--darkest-gray {
+  border-color: #161616; }
+
+.hover-darkest-gray:hover,
+.hover-darkest-gray:focus {
+  color: #161616; }
+
+.hover-bg-darkest-gray:hover,
+.hover-bg-darkest-gray:focus {
+  background-color: #161616; }
 
 @-webkit-keyframes spin {
   from {
@@ -6993,6 +7013,10 @@ code, .code {
 
 .neue-haas-unica {
   font-family: neue-haas-unica, sans-serif; }
+
+.balboa {
+  font-family: balboa, sans-serif;
+  font-weight: 900; }
 
 .spin {
   -webkit-animation-name: spin;
