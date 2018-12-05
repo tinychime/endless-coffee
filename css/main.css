@@ -6978,21 +6978,21 @@ code, .code {
   background-color: #FC463D; }
 
 .darkest-gray {
-  color: #161616; }
+  color: #1D1C1C; }
 
 .bg-darkest-gray {
-  background-color: #161616; }
+  background-color: #1D1C1C; }
 
 .b--darkest-gray {
-  border-color: #161616; }
+  border-color: #1D1C1C; }
 
 .hover-darkest-gray:hover,
 .hover-darkest-gray:focus {
-  color: #161616; }
+  color: #1D1C1C; }
 
 .hover-bg-darkest-gray:hover,
 .hover-bg-darkest-gray:focus {
-  background-color: #161616; }
+  background-color: #1D1C1C; }
 
 @-webkit-keyframes spin {
   from {
