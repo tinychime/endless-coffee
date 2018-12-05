@@ -1,3 +1,7 @@
+// Shouts out to Vincent Orback for this codepen: https://codepen.io/vincentorback/pen/zxRyzj
+// We basicially copy/pasted his code here and whoopsie it worked. You're the man Vincent.
+// Vincent on Github: https://github.com/vincentorback
+
 var doc = window.document,
   context = doc.querySelector('.loop'),
   clones = context.querySelectorAll('.clone'),
@@ -75,14 +79,3 @@ if (document.readyState !== 'loading') {
 } else {
   doc.addEventListener('DOMContentLoaded', init, false)
 }
-
-
-
-
-
-
-
-// Just for this demo: Center the middle block on page load
-// window.onload = function () {
-//   setScrollPos(Math.round(clones[0].getBoundingClientRect().top + getScrollPos() - (context.offsetHeight - clones[0].offsetHeight) / 2));
-// };
