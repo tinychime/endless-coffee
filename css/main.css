@@ -6974,5 +6974,40 @@ code, .code {
 .hover-bg-endless-red:focus {
   background-color: #FC463D; }
 
-::scrollbar {
-  display: none; }
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg); } }
+
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+.tracked-med {
+  letter-spacing: .05em; }
+
+.neue-haas-unica {
+  font-family: neue-haas-unica, sans-serif; }
+
+.spin {
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 40000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spin;
+  -moz-animation-duration: 40000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: spin;
+  -ms-animation-duration: 40000ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  -o-transition: rotate(3600deg); }
+
+.multiply {
+  mix-blend-mode: multiply; }
