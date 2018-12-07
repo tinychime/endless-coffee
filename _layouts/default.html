@@ -6,34 +6,14 @@
   {% include head.html %}
 
   <body>
-    <div class="tracked-med neue-haas-unica">
-      <!-- <div class="absolute top-0 right-0 vh-100 z-100 flex items-center justify-center z-1">
-        <img class="spin" src="{{ site.baseurl }}/images/cups.svg">
-      </div> -->
 
-      <div class="vh-100 overflow-hidden">
-        <!-- Left/red column with infinite scroll logo thing -->
-        <div class="vh-100 white bg-endless-red overflow-scroll w-50 fl">
-          {% include scroll.html %}
-        </div>
+    {% include header.html %}
 
-        <!-- Right/black column where the content lives -->
-        <div class="vh-100 white bg-darkest-gray overflow-scroll w-50 fl pa4 f4 fw3 relative">
-          <div>
-            <p class="mt0">Endless Coffee Company</p>
-            <p class="mt0 i">{{ page. title }}</p>
-            {{ content }}
-          </div>
-
-          <!-- Big-ass mailing list sign-up form on every page -->
-          <div class="bg-darkest-gray fixed w-50 right-0 bottom-0 pa4 pt2">
-            {% include sign-up.html %}
-          </div>
-        </div>
-      </div>
+    <div>
+      {{ content }}
     </div>
 
-    <script src="{{ site.baseurl }}/scripts/index.js"></script>
+    {% include footer.html %}
 
   </body>
 

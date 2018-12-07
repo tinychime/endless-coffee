@@ -36,6 +36,9 @@
 .hover-bg-darkest-gray:hover,
 .hover-bg-darkest-gray:focus { background-color: #1D1C1C; }
 
+.black-gradient {
+  background-image: linear-gradient(to botom, transparent, #1D1C1C);
+}
 
 
 @-moz-keyframes spin {
