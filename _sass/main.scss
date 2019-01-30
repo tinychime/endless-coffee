@@ -86,3 +86,84 @@
 .multiply {
   mix-blend-mode: multiply;
 }
+
+.endless-blue { color: #5FA2FF; }
+.bg-endless-blue { background-color: #5FA2FF; }
+.b--endless-blue { border-color: #5FA2FF; }
+
+.hover-endless-blue:hover,
+.hover-endless-blue:focus { color: #5FA2FF; }
+
+.hover-bg-endless-blue:hover,
+.hover-bg-endless-blue:focus { background-color: #5FA2FF; }
+
+.endless-white { color: #F7F7F5; }
+.bg-endless-white { background-color: #F7F7F5; }
+.b--endless-white { border-color: #F7F7F5; }
+
+.hover-endless-white:hover,
+.hover-endless-white:focus { color: #F7F7F5; }
+
+.hover-bg-endless-white:hover,
+.hover-bg-endless-white:focus { background-color: #F7F7F5; }
+
+.endless-purple { color: #6D5EFD; }
+.bg-endless-purple { background-color: #6D5EFD; }
+.b--endless-purple { border-color: #6D5EFD; }
+
+.hover-endless-purple:hover,
+.hover-endless-purple:focus { color: #6D5EFD; }
+
+.hover-bg-endless-purple:hover,
+.hover-bg-endless-purple:focus { background-color: #6D5EFD; }
+
+.endless-black { color: #202124; }
+.bg-endless-black { background-color: #202124; }
+.b--endless-black { border-color: #202124; }
+
+.hover-endless-black:hover,
+.hover-endless-black:focus { color: #202124; }
+
+.hover-bg-endless-black:hover,
+.hover-bg-endless-black:focus { background-color: #202124; }
+
+.endless-pink { color: #FFC4E7; }
+.bg-endless-pink { background-color: #FFC4E7; }
+.b--endless-pink { border-color: #FFC4E7; }
+
+.hover-endless-pink:hover,
+.hover-endless-pink:focus { color: #FFC4E7; }
+
+.hover-bg-endless-pink:hover,
+.hover-bg-endless-pink:focus { background-color: #FFC4E7; }
+
+.endless-yellow { color: #FFEC8F; }
+.bg-endless-yellow { background-color: #FFEC8F; }
+.b--endless-yellow { border-color: #FFEC8F; }
+
+.hover-endless-yellow:hover,
+.hover-endless-yellow:focus { color: #FFEC8F; }
+
+.hover-bg-endless-yellow:hover,
+.hover-bg-endless-yellow:focus { background-color: #FFEC8F; }
+
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+}
+
+::placeholder {
+  color: white;
+  opacity: 70%;
+}
+
+.study {
+  font-family: study, serif;
+  font-weight: 400;
+}
+
+.two-column {
+  column-count: 2;
+  column-gap: 40px;
+}
