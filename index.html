@@ -2,38 +2,43 @@
 layout: default
 title: ""
 ---
-<div class="vh-100 flex flex-row">
-  <div class="w-two-thirds flex items-center justify-center bg-endless-white">
-    <img class="w-100 pa6" src="{{ site.baseurl }}/images/endless-logo-purple.svg">
-  </div>
-  <div class="w-third bg-endless-yellow endless-black pa4 flex items-center justify-center tc">
-    <div>
-      <h2 class="ttu mv0 f2">Coming Soon</h2>
-      <p class="mv5 f5">Fresh coffee delivered to your front door or wherever else you would like to have coffee delivered. More information that will make someone want to click the button below and give us their data. Wouldn't it be great if people did that?</p>
-      <a class="w-100 db pa3 ba b--endless-black endless-black link tc f5 fw7 bw1 ttu br2" href="#">Sign Up For Early Access</a>
+<div class="loop relative vh-100 overflow-auto">
+  <div>
+    <div class="vh-100 flex flex-row z-1">
+      <div class="w-two-thirds flex items-center justify-center bg-endless-white">
+        <img class="w-100 pa6" src="{{ site.baseurl }}/images/endless-logo-black.svg">
+      </div>
+      <div class="w-third bg-endless-black endless-white pa4 flex items-center justify-center">
+        <div>
+          <!-- <h2 class="ttu mv0 f3 tracked fw5">Coming Soon</h2> -->
+          <p class="mv4 f3 fw3">Fresh coffee delivered to your front door or wherever else you would like to have coffee delivered.</p>
+          <a class="w-100 db pa3 lh-solid ba b--endless-white endless-white link tc f5 fw5 bw1 ttu br2 tracked dim" href="#">Early Access</a>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-<div class="vh-100 flex flex-row z-999">
-  <div class="w-third bg-endless-black endless-white pa4">
-    <h2 class="mt0 fw5">What is Endless Coffee Company?</h2>
-  </div>
-  <div class="w-two-thirds bg-endless-black endless-white pa4">
-    <div>
-      <h2 class="mt0 fw5">Pretty Pictures</h2>
+    <div class="vh-100 flex flex-row z-999">
+      <div class="w-third bg-endless-yellow endless-black pa4 flex items-center">
+        <div>
+        <h2 class="mt0 fw5">What is Endless Coffee Company?</h2>
+        <p class="system-sans-serif fw4 f4">We're a group of people who are passionate about sourcing and roasting coffee sustainably and thoughtfully. We seek to produce coffees that accentuate and celebrate the idiosyncrasies of the regions and farms we source from.</p>
+        <p class="system-sans-serif fw4 f4">Sign up for our newsletter to keep in touch as we figure this thing out.</p>
+        {% include sign-up.html %}
+        </div>
+      </div>
+      <div class="relative w-two-thirds bg-endless-black endless-white flex items-center" style="background: url({{ site.baseurl }}/images/legacy-endless-product.jpg); background-position: top; background-size: cover;">
+        <p class="absolute bottom-0 right-0 system-sans-serif pa4 mb0 f4">Photo by Jacob Johnson</p>
+      </div>
     </div>
-  </div>
-</div>
-<div class="vh-100 flex flex-row bg-endless-yellow endless-black">
-  <div class="w-50 pa4 flex items-center justify-center">
-    <div class="">
-      <h2 class="ttu mv0 f2">Coming Soon</h2>
-      <p class="f5">Fresh coffee delivered to your front door or wherever else you would like to have coffee delivered. More information that will make someone want to click the button below and give us their data. Wouldn't it be great if people did that?</p>
-    </div>
-  </div>
-  <div class="w-50 pa4 flex items-center justify-center">
-    <div class="db w-100">
-      <a class="w-100 db pa3 ba b--endless-black endless-black link tc f5 fw7 bw1 ttu br2" href="#">Sign Up For Early Access</a>
-    </div>
+    <!-- <div class="vh-100 flex flex-row z-999">
+      <div class="w-50 bg-endless-white endless-black pa4 flex items-center">
+        <div>
+        </div>
+      </div>
+      <div class="w-50 bg-endless-black endless-white pa4 flex items-center">
+        <div>
+          <h2 class="mt0 fw5">Pretty Pictures</h2>
+        </div>
+      </div>
+    </div> -->
   </div>
 </div>
