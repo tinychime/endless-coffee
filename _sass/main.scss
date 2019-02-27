@@ -1,9 +1,11 @@
+---
+---
 // Import Tachyons from node_modules: https://github.com/tachyons-css/tachyons-sass
 @import './node_modules/tachyons-sass/tachyons.scss';
 
 @font-face {
   font-family: "Adieu";
-  src: url(Adieu-Bold.otf);
+  src: url({{ site.baseurl }}/Adieu-Bold.otf);
   font-weight: 700;
 }
 
