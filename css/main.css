@@ -7183,3 +7183,6 @@ code, .code {
           column-count: 2;
   -webkit-column-gap: 40px;
           column-gap: 40px; }
+
+.w5 {
+  width: 10em; }
