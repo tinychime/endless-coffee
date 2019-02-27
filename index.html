@@ -3,21 +3,26 @@ layout: default
 title: ""
 ---
 <div class="vh-100-ns flex-ns flex-row">
-  <div class="bg-endless-white w-two-thirds-ns w-100 flex items-center justify-center">
+  <div class="bg-endless-white w-two-thirds-ns w-100 flex items-center justify-center relative">
+    <ul class="list pl0 absolute top-0 left-0 right-0 adieu pa0 ma0 relative ma4">
+      <li class="f5 absolute left-0"><a href="{{ site.baseurl }}/information.html" class="link endless-black dim">Information</a></li>
+      <li class="f5 absolute right-0"><a href="{{ site.baseurl }}/contact.html" class="link endless-black dim">Contact</a></li>
+    </ul>
     <img class="w4 pa6 w-100" src="{{ site.baseurl }}/images/endless-logo-black.svg">
   </div>
-  <div class="w-third-ns w-100 flex items-center pa4 bg-endless-black endless-white">
+  <div class="w-third-ns w-100 flex items-center pa4 bg-endless-yellow endless-black">
     <div>
-      <p class="mv4-ns mv2 f3 fw3 rhode-medium endless-white">Fresh coffee delivered to your front door or wherever else you would like to have coffee delivered.</p>
-      <a class="w-100 db pa3 lh-solid ba b--endless-white endless-white link tc f5 fw5 bw1 ttu br2 tracked dim rhode-medium" href="#">Early Access</a>
+      <h2 class="fw5 mt0 adieu ttu tc">Sign Up For Early Access</h2>
+      <p class="mv4-ns mv2 fw4 f4 neue-haas-unica endless-black">Fresh coffee delivered to your front door or wherever else you would like to have coffee delivered.</p>
+      <a class="w-100 db pa3 lh-solid ba b--endless-black endless-black link tc f5 fw5 bw1 br2 tracked dim adieu ttu" href="#">Sign Up</a>
     </div>
   </div>
 </div>
 
 <div class="vh-100-ns flex flex-row-ns">
-  <div class="w-third flex items-center pa4 bg-endless-yellow black">
+  <div class="w-third flex items-center pa4 bg-endless-black ndless-white">
     <div>
-      <h2 class="mt0 fw5 rhode-medium">What is Endless Coffee Company?</h2>
+      <h2 class="mt0 fw5 adieu ttu tc">Endless Coffee Company</h2>
       <p class="fw4 f4">We're a group of people who are passionate about sourcing and roasting coffee sustainably and thoughtfully. We seek to produce coffees that accentuate and celebrate the idiosyncrasies of the regions and farms from which we source.</p>
       <p class="fw4 f4">Sign up for our newsletter to keep in touch as we figure this thing out.</p>
       {% include sign-up.html %}

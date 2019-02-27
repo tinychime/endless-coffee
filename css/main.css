@@ -6954,6 +6954,14 @@ code, .code {
   Add custom styles here.
 
 */
+@font-face {
+  font-family: "Adieu";
+  src: url(Adieu-Bold.otf);
+  font-weight: 700; }
+
+.adieu {
+  font-family: "Adieu"; }
+
 .system, .card {
   font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif; }
 
@@ -7148,35 +7156,31 @@ code, .code {
 
 ::-webkit-input-placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #202124; }
+  color: #F7F7F5; }
 
 :-ms-input-placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #202124; }
+  color: #F7F7F5; }
 
 ::-ms-input-placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #202124; }
+  color: #F7F7F5; }
 
 ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #202124; }
+  color: #F7F7F5; }
 
 ::-webkit-input-placeholder {
-  color: #202124;
-  opacity: 70%; }
+  color: #F7F7F5; }
 
 :-ms-input-placeholder {
-  color: #202124;
-  opacity: 70%; }
+  color: #F7F7F5; }
 
 ::-ms-input-placeholder {
-  color: #202124;
-  opacity: 70%; }
+  color: #F7F7F5; }
 
 ::placeholder {
-  color: #202124;
-  opacity: 70%; }
+  color: #F7F7F5; }
 
 .study {
   font-family: study, serif;
