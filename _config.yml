@@ -6,7 +6,7 @@ description: ""
 author:
 
 # URL Stuff
-baseurl: "/endless-coffee" # Set the baseurl to the name of your Github repo when deploying with Github Pages
+baseurl: "" # Set the baseurl to the name of your Github repo when deploying with Github Pages
 url: "" # the base hostname & protocol for your site
 
 # Build settings
