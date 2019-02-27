@@ -1,17 +1,5 @@
----
----
 // Import Tachyons from node_modules: https://github.com/tachyons-css/tachyons-sass
 @import './node_modules/tachyons-sass/tachyons.scss';
-
-@font-face {
-  font-family: "Adieu";
-  src: url(../{{ site.baseurl }}/Adieu-Bold.otf);
-  font-weight: 700;
-}
-
-.adieu {
-  font-family: "Adieu";
-}
 
 // Add your own CSS rules here
 .system { font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif; }

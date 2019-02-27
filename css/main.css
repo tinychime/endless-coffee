@@ -6954,14 +6954,6 @@ code, .code {
   Add custom styles here.
 
 */
-@font-face {
-  font-family: "Adieu";
-  src: url(Adieu-Bold.otf);
-  font-weight: 700; }
-
-.adieu {
-  font-family: "Adieu"; }
-
 .system, .card {
   font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif; }
 
