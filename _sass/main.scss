@@ -143,15 +143,15 @@
 .hover-bg-endless-pink:hover,
 .hover-bg-endless-pink:focus { background-color: #FFC4E7; }
 
-.endless-yellow { color: #FFEC8F; }
-.bg-endless-yellow { background-color: #FFEC8F; }
-.b--endless-yellow { border-color: #FFEC8F; }
+.endless-yellow { color: #FFED96; }
+.bg-endless-yellow { background-color: #FFED96; }
+.b--endless-yellow { border-color: #FFED96; }
 
 .hover-endless-yellow:hover,
-.hover-endless-yellow:focus { color: #FFEC8F; }
+.hover-endless-yellow:focus { color: #FFED96; }
 
 .hover-bg-endless-yellow:hover,
-.hover-bg-endless-yellow:focus { background-color: #FFEC8F; }
+.hover-bg-endless-yellow:focus { background-color: #FFED96; }
 
 
 
@@ -175,4 +175,8 @@
 
 .w5 {
   width: 10em;
+}
+
+.roboto-mono {
+  font-family: 'Roboto Mono', monospace;
 }
