@@ -6961,21 +6961,21 @@ code, .code {
   display: none; }
 
 .endless-red {
-  color: #FC463D; }
+  color: #FF7A5B; }
 
 .bg-endless-red {
-  background-color: #FC463D; }
+  background-color: #FF7A5B; }
 
 .b--endless-red {
-  border-color: #FC463D; }
+  border-color: #FF7A5B; }
 
 .hover-endless-red:hover,
 .hover-endless-red:focus {
-  color: #FC463D; }
+  color: #FF7A5B; }
 
 .hover-bg-endless-red:hover,
 .hover-bg-endless-red:focus {
-  background-color: #FC463D; }
+  background-color: #FF7A5B; }
 
 .darkest-gray {
   color: #1D1C1C; }
